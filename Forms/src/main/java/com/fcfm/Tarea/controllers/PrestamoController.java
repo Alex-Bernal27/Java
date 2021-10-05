@@ -27,6 +27,7 @@ import com.fcfm.Tarea.models.entity.Prestamo;
 @RequestMapping(path = "/prestamo")
 @SessionAttributes("prestamo")
 public class PrestamoController {
+
 	@Autowired
 	private PrestamoDao prestamoDao;
 	
